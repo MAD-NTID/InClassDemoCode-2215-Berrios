@@ -128,8 +128,6 @@ namespace Week2Day1
 
             //Console.WriteLine(resultImplicit);  // 4
             #endregion
-
-
         }
     }
 }
