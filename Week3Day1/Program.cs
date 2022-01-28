@@ -62,7 +62,7 @@ namespace Week3Day1
             //}
             #endregion
 
-            #region Sales Commision
+            #region Sales Commision 7%
             //const double COMMISSION_RATE = .07;
 
             //Console.Write("How much is the sale of the car? ");
