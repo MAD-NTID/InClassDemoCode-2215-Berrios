@@ -52,19 +52,19 @@ namespace Week3Day3
             #endregion
 
             #region TryParse
-            ////  Getting age using TryParse
-            //Console.Write("Type in your age: ");
+            //  Getting age using TryParse
+            Console.Write("Type in your age: ");
 
-            //int age = 0;
+            int age = 0;
 
-            //if (int.TryParse(Console.ReadLine(), out age))
-            //{
-            //    Console.WriteLine("Your age is {0}", age);
-            //}
-            //else
-            //{
-            //    Console.WriteLine("You input an invalid age");
-            //}
+            if (int.TryParse(Console.ReadLine(), out age))
+            {
+                Console.WriteLine("Your age is {0}", age);
+            }
+            else
+            {
+                Console.WriteLine("You input an invalid age");
+            }
             #endregion
 
             #region TryParse two different values at the same time
