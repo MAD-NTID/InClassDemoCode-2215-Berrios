@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6Day1 - MCE07", "Week6D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6Day1 - For Loops", "Week6Day1 - For Loops\Week6Day1 - For Loops.csproj", "{D184CE49-0DB3-4A6B-A082-938CF03DDC85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6Day1 - Array Resize", "Week6Day1 - Array Resize\Week6Day1 - Array Resize.csproj", "{CEE8AB53-D0F3-4538-B62A-047E787C5B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D184CE49-0DB3-4A6B-A082-938CF03DDC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D184CE49-0DB3-4A6B-A082-938CF03DDC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D184CE49-0DB3-4A6B-A082-938CF03DDC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE8AB53-D0F3-4538-B62A-047E787C5B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE8AB53-D0F3-4538-B62A-047E787C5B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE8AB53-D0F3-4538-B62A-047E787C5B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE8AB53-D0F3-4538-B62A-047E787C5B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
