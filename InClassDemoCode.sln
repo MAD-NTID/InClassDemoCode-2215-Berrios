@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6Day1 - Array Resize", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6Day2 - Foreach Loops", "Week6Day2 - Foreach Loops\Week6Day2 - Foreach Loops.csproj", "{ED20C67D-5464-4CE1-A2A5-986061295C7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6Day2", "Week6Day2\Week6Day2.csproj", "{EBB70BFE-150D-44E7-AB08-A1B5E3387E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6Day2 - Auto Initialize Arrays", "Week6Day2\Week6Day2 - Auto Initialize Arrays.csproj", "{EBB70BFE-150D-44E7-AB08-A1B5E3387E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
