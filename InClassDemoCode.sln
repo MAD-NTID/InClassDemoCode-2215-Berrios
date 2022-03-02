@@ -49,9 +49,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week7Day1 - Car Information
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week7Day2 - NMAD Banking Inc. Simple", "Week7Day2 NMAD Banking Inc. Simple\Week7Day2 - NMAD Banking Inc. Simple.csproj", "{E66F49C6-F8DF-473E-BC46-EDD14A4071DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week7Day2 - NMAD Banking Inc. Simple And Loops", "Week7Day2 - NMAD Banking Inc. Simple And Loops\Week7Day2 - NMAD Banking Inc. Simple And Loops.csproj", "{7A320F6F-B578-4EFB-9750-77292A540FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week7Day2 - NMAD Banking Inc. Simple And Loops", "Week7Day2 - NMAD Banking Inc. Simple And Loops\Week7Day2 - NMAD Banking Inc. Simple And Loops.csproj", "{7A320F6F-B578-4EFB-9750-77292A540FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week7Day2 - NMAD Banking Inc. Simple And Loops And Methods", "Week7Day2 - NMAD Banking Inc. Simple And Loops And Methods\Week7Day2 - NMAD Banking Inc. Simple And Loops And Methods.csproj", "{8CFA314B-89A0-4E60-BF29-6453ECA348F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week7Day2 - NMAD Banking Inc. Simple And Loops And Methods", "Week7Day2 - NMAD Banking Inc. Simple And Loops And Methods\Week7Day2 - NMAD Banking Inc. Simple And Loops And Methods.csproj", "{8CFA314B-89A0-4E60-BF29-6453ECA348F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week8Day1 - UsedCars", "Week8Day1 - UsedCars\Week8Day1 - UsedCars.csproj", "{AC500F49-6EC2-4FFA-A2C0-3972138D5264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week8Day1 - UsedCarsInput", "Week8Day1 - UsedCarsInput\Week8Day1 - UsedCarsInput.csproj", "{2047DF60-AC6A-4452-82CE-57F52846225E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,14 @@ Global
 		{8CFA314B-89A0-4E60-BF29-6453ECA348F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFA314B-89A0-4E60-BF29-6453ECA348F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFA314B-89A0-4E60-BF29-6453ECA348F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC500F49-6EC2-4FFA-A2C0-3972138D5264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC500F49-6EC2-4FFA-A2C0-3972138D5264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC500F49-6EC2-4FFA-A2C0-3972138D5264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC500F49-6EC2-4FFA-A2C0-3972138D5264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2047DF60-AC6A-4452-82CE-57F52846225E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2047DF60-AC6A-4452-82CE-57F52846225E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2047DF60-AC6A-4452-82CE-57F52846225E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2047DF60-AC6A-4452-82CE-57F52846225E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
