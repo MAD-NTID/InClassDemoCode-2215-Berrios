@@ -18,10 +18,11 @@ namespace Week8Day1___UsedCars
             cars[1] = theCar2;
 
             //  Show car details for each Car in the cars array
-            for(int i = 0; i < cars.Length; i++)
+            for (int i = 0; i < cars.Length; i++)
             {
                 Console.WriteLine($"Car {i + 1}");
-                cars[i].ShowCarDetails();
+                //cars[i].ShowCarDetails();
+                Console.WriteLine(cars[i].ToString());
                 Console.WriteLine();
             }
         }

@@ -44,7 +44,8 @@ namespace Week8Day1___UsedCarsInput
             for (int i = 0; i < cars.Length; i++)
             {
                 Console.WriteLine($"Car {i + 1}");
-                cars[i].ShowCarDetails();
+                //cars[i].ShowCarDetails();
+                Console.WriteLine(cars[i].ToString());
                 Console.WriteLine();
             }
         }

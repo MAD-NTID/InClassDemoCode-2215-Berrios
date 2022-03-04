@@ -25,16 +25,20 @@ namespace Week8Day1___UsedCars
             msrp = _msrp;
         }
 
-        public void ShowCarDetails()
+        public override string ToString()
         {
-            Console.WriteLine($"Car Info: \n" +
+            string toString = string.Format(
+                $"Car Info: \n" +
                 $"Manufacturer {manufacturer}\n" +
                 $"Model {model}\n" +
                 $"Color {color}\n" +
                 $"Type {type}\n" +
                 $"Electric {electric}\n" +
                 $"MSRP {msrp:C}\n" +
-                $"Monthly for 72 Months {MonthlyPaymentSeventyTwoMonths():C}");
+                $"Monthly for 72 Months {MonthlyPaymentSeventyTwoMonths():C}"
+                );
+
+            return toString;
         }
 
         public void StarEngine()
