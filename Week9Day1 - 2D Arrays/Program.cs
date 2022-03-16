@@ -16,7 +16,11 @@ namespace Week9Day1___2D_Arrays
             ShowRandomNumbers(nameOfTheTwoDArray);
 
             //  Scenario - Everyone has a favorite number 25 and want to assign it to the first column
+            //nameOfTheTwoDArray = ReplaceColumnNumber(nameOfTheTwoDArray, 0, 25);
+
+            //  Scenario - Prompt the user to enter a column number to replace, and the integer number value, validate
             int col = 0, number = 0;
+
             while(true)
             {
                 Console.Write($"Which column do you want to replace for everyone? 1 to {COLS}: ");
