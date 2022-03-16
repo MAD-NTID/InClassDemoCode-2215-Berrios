@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week8Day2 - Access Modifier
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week8Day2 - Access Modifiers Properties", "Week8Day2 - Access Modifiers Properties\Week8Day2 - Access Modifiers Properties.csproj", "{65C9D0BC-F03D-4D29-93EB-AEC44DE488B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week8Day3 - Cars Building On OOP", "Week8Day3 - Cars Building On OOP\Week8Day3 - Cars Building On OOP.csproj", "{EA319A07-9F5B-4852-9B32-A90F9FED6ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week8Day3 - Cars Building On OOP", "Week8Day3 - Cars Building On OOP\Week8Day3 - Cars Building On OOP.csproj", "{EA319A07-9F5B-4852-9B32-A90F9FED6ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week9Day1 - 2D Arrays", "Week9Day1 - 2D Arrays\Week9Day1 - 2D Arrays.csproj", "{0453C239-7F64-4471-B469-5E07FB387E8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{EA319A07-9F5B-4852-9B32-A90F9FED6ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA319A07-9F5B-4852-9B32-A90F9FED6ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA319A07-9F5B-4852-9B32-A90F9FED6ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0453C239-7F64-4471-B469-5E07FB387E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0453C239-7F64-4471-B469-5E07FB387E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0453C239-7F64-4471-B469-5E07FB387E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0453C239-7F64-4471-B469-5E07FB387E8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
