@@ -67,7 +67,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week9Day1 - 2D Arrays", "We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week9Day2 - Default Empty Constructor", "Week9Day2 - Default Empty Constructor\Week9Day2 - Default Empty Constructor.csproj", "{90A8DBB2-641D-40A7-945B-01F19F4ADBAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week10Day2 - MidtermPracticePracticel2", "Week10Day2 - MidtermPracticePracticel2\Week10Day2 - MidtermPracticePracticel2.csproj", "{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day2 - MidtermPracticePracticel2", "Week10Day2 - MidtermPracticePracticel2\Week10Day2 - MidtermPracticePracticel2.csproj", "{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week11Day1", "Week11Day1\Week11Day1.csproj", "{8E7326A5-CEC2-47D7-B472-2E602171687A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7326A5-CEC2-47D7-B472-2E602171687A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7326A5-CEC2-47D7-B472-2E602171687A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7326A5-CEC2-47D7-B472-2E602171687A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7326A5-CEC2-47D7-B472-2E602171687A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
