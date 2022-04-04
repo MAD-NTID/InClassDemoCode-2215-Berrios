@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace Week11Day2
 {
-    class Students
+    class StudentsHandler
     {
         private List<Student> students;
 
         public List<Student> StudentsList { get { return students; } }
 
-        public Students()
+        public StudentsHandler()
         {
             students = new();
         }
@@ -30,7 +30,7 @@ namespace Week11Day2
         {
             foreach(Student student in students)
             {
-                if(student.Name == name)
+                if(student.Name.ToLower() == name)
                 {
                     // This will however remove only the "FIRST" occurrence
                     students.Remove(student);
@@ -42,6 +42,18 @@ namespace Week11Day2
 
             //  Could not delete anything
             return false;
+        }
+
+        public string ShowAllStudents()
+        {
+            string students = "";
+
+            foreach (Student student in StudentsList)
+            {
+                students += student + "\n";
+            }
+
+            return students;
         }
     }
 }

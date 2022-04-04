@@ -7,16 +7,16 @@ namespace Week11Day2
     {
         static void Main(string[] args)
         {
-            Students students = new();
+            StudentsHandler studentsHandler = new();
 
             //  Predefined students
-            students.AddStudent("Menna", 17);
-            students.AddStudent("Flavio", 17);
-            students.AddStudent("Anthony", 16);
-            students.AddStudent("Vincent", 14);
-            students.AddStudent("Evan", 16);
-            students.AddStudent("Amir", 0);
-            students.AddStudent("Edwin", 2);
+            studentsHandler.AddStudent("Menna", 17);
+            studentsHandler.AddStudent("Flavio", 17);
+            studentsHandler.AddStudent("Anthony", 16);
+            studentsHandler.AddStudent("Vincent", 14);
+            studentsHandler.AddStudent("Evan", 16);
+            studentsHandler.AddStudent("Amir", 0);
+            studentsHandler.AddStudent("Edwin", 2);
 
             //  Add a new student
             Student newStudent;
@@ -59,7 +59,7 @@ namespace Week11Day2
                         Console.WriteLine("Invalid input");
                 }
 
-                students.AddStudentByObject(newStudent);
+                studentsHandler.AddStudentByObject(newStudent);
 
                 while(true)
                 {
@@ -86,10 +86,24 @@ namespace Week11Day2
                 }
             }
 
-            foreach(Student student in students.StudentsList)
+            Console.WriteLine(studentsHandler.ShowAllStudents());
+
+            //  Remove a student by name
+            while(true)
             {
-                Console.WriteLine(student);
-                Console.WriteLine();
+                Console.Write("Do you want to delete a student? Enter the name, 'n' to exit: ");
+
+                string studentNameInput = Console.ReadLine().ToLower();
+
+                if (studentNameInput == "n")
+                    break;
+                else
+                {
+                    //  We search for a match in the Students' ArrayList
+                    studentsHandler.RemoveStudentByName(studentNameInput);
+
+                    Console.WriteLine(studentsHandler.ShowAllStudents());
+                }
             }
         }
     }
