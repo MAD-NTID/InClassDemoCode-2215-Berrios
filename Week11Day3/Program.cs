@@ -200,14 +200,20 @@ namespace Week11Day3
                 Console.WriteLine(currentCar.Value);    // will call ToString()
                 Console.WriteLine();
             }
-            //if(registeredCars.TryGetValue("fcs1234", out Car flavioRegisteredCar))
-            //{
-            //    Console.WriteLine(flavioRegisteredCar); ;
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Sorry, that car was not found in the registry");
-            //}
+
+            #region Find a Car by key, and get Car object simultaneously if key is found
+            Console.Write("Enter a license plate to display Car details: ");
+            string licensePlate = Console.ReadLine();
+
+            if (registeredCars.TryGetValue(licensePlate, out Car flavioRegisteredCar))
+            {
+                Console.WriteLine(flavioRegisteredCar);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, that car was not found in the registry");
+            }
+            #endregion
         }
     }
 }
