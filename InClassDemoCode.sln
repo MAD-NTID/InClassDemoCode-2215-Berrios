@@ -67,13 +67,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week9Day1 - 2D Arrays", "We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week9Day2 - Default Empty Constructor", "Week9Day2 - Default Empty Constructor\Week9Day2 - Default Empty Constructor.csproj", "{90A8DBB2-641D-40A7-945B-01F19F4ADBAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day2 - MidtermPracticePracticel2", "Week10Day2 - MidtermPracticePracticel2\Week10Day2 - MidtermPracticePracticel2.csproj", "{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week9Day3 - MidtermPracticePracticel2", "Week10Day2 - MidtermPracticePracticel2\Week9Day3 - MidtermPracticePracticel2.csproj", "{0D33F5E3-43E8-44C6-9FCB-A0A5D31C622F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week11Day1", "Week11Day1\Week11Day1.csproj", "{8E7326A5-CEC2-47D7-B472-2E602171687A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day1", "Week11Day1\Week10Day1.csproj", "{8E7326A5-CEC2-47D7-B472-2E602171687A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week11Day2", "Week11Day2\Week11Day2.csproj", "{7A28E512-A316-4E54-9AE9-59C52EE70E65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day2", "Week11Day2\Week10Day2.csproj", "{7A28E512-A316-4E54-9AE9-59C52EE70E65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week11Day3", "Week11Day3\Week11Day3.csproj", "{37C099AA-F8A3-4EE1-AF72-5B625EC4AF8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day3", "Week11Day3\Week10Day3.csproj", "{37C099AA-F8A3-4EE1-AF72-5B625EC4AF8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
