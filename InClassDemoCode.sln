@@ -75,6 +75,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day2", "Week11Day2\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10Day3", "Week11Day3\Week10Day3.csproj", "{37C099AA-F8A3-4EE1-AF72-5B625EC4AF8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week11Day1_StreamWriter", "Week11Day1_StreamWriter\Week11Day1_StreamWriter.csproj", "{B895D239-F178-43DC-8C04-54C7FAE6184E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{37C099AA-F8A3-4EE1-AF72-5B625EC4AF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C099AA-F8A3-4EE1-AF72-5B625EC4AF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C099AA-F8A3-4EE1-AF72-5B625EC4AF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B895D239-F178-43DC-8C04-54C7FAE6184E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B895D239-F178-43DC-8C04-54C7FAE6184E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B895D239-F178-43DC-8C04-54C7FAE6184E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B895D239-F178-43DC-8C04-54C7FAE6184E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
