@@ -48,26 +48,36 @@ namespace Week11Day3_Utilities
 
         public static string ToUpperFirst(this string value)
         {
-            // The long and ugly way
-            value = value.ToLower();
+            #region The long and ugly way
+            //value = value.ToLower();
 
-            char[] theValue = value.ToCharArray();
+            //char[] theValue = value.ToCharArray();
 
-            theValue[0] = theValue[0].ToString().ToUpper().ToCharArray()[0];
+            //theValue[0] = theValue[0].ToString().ToUpper().ToCharArray()[0];
 
-            string newValue = "";
+            //string newValue = "";
 
-            foreach (char c in theValue)
-                newValue += c;
+            //foreach (char c in theValue)
+            //    newValue += c;
 
-            return newValue;
+            //return newValue;
+            #endregion
 
-            //  More Elegant solution
+            #region More Elegant solution
             //  Replaces the first character with an upper case of its own character
-            //value = value.Remove(0, 1)
-            //    .Insert(0, value[0].ToString().ToUpper());
+            //string letter = value[0].ToString().ToUpper();
+
+            //value = value.ToLower().Remove(0, 1);
+
+            //value = value.Insert(0, letter);
 
             //return value;
+            #endregion
+
+            #region Even More Elegant solution
+            return value.ToLower().Remove(0, 1)
+                .Insert(0, value[0].ToString().ToUpper());
+            #endregion
         }
     }
 }
